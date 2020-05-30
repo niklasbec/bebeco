@@ -74,6 +74,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   margin: 0 auto;
+  max-width: 150px;
 }
 
 .copyright {
