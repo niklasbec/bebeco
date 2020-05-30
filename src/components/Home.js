@@ -1,19 +1,17 @@
 import React from 'react';
-import {NavLink} from "react-router-dom"
-
-
 
 function Home() {
   return (
     <div className="Home">
-      <header>
-        <img id="logo" src="https://i.imgur.com/9xsWBPZ.png" width="65px" height="65px"/>
-        <nav>
-            <li><NavLink activeStyle={{color: "#185bd8"}} to="/leistungen">Leistungen</NavLink></li>
-            <li><NavLink activeStyle={{color: "#185bd8"}} to="/kontakt">Kontakt</NavLink></li>
-            <li><NavLink activeStyle={{color: "#185bd8"}} to="/ueber-uns">Über Uns</NavLink></li>
-        </nav>
-      </header>
+      <h1 className="main-text">Besseres, Schnelleres und<br />Günstigeres Fullfillment</h1>
+      <div className="main-text-lower">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu placerat mi, quis tempor mauris. Vestibulum ultricies nisi vel ex commodo sagittis. Vivamus at vehicula lacus. Nam id lorem quis nisl pharetra auctor. <br /><br /><strong>Kontaktiere uns gerne für genaue Informationen zu unseren Konditionen.</strong></p>
+      <a href="kontakt">
+      <div className="contact-button">
+      zum Kontaktformular
+      </div>
+      </a>
+      </div>
     </div>
   );
 }
