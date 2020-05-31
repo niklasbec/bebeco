@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { NavLink, Route } from "react-router-dom";
+import Contact from "./components/Contact"
 
 //Components
 import Home from "./components/Home";
@@ -36,6 +37,7 @@ function App() {
         </nav>
       </header>
       <Route exact path="/" component={Home} />
+      <Route exact path="/kontakt" component={Contact} />
       <Footer />
     </div>
   );
