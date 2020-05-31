@@ -137,6 +137,32 @@ nav {
   margin-bottom: 30px;
 }
 
+.error {
+  width: 50vw;
+  height: 8vh;
+  background-color: rgb(194, 35, 35);
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.success {
+  width: 50vw;
+  height: 8vh;
+  background-color: rgb(35, 194, 96);
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+}
+
 @media (max-width: 700px) {
   nav {
     width: 50vw;
