@@ -135,3 +135,49 @@ nav {
   margin: 0 auto;
   margin-bottom: 30px;
 }
+
+@media (max-width: 700px) {
+  nav {
+    width: 50vw;
+  }
+
+  .contact-button {
+    font-size: 16px;
+    width: 40vw;
+  }
+
+  .main-text {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 450px) {
+  nav {
+    width: 60vw;
+  }
+
+  .contact-button {
+    font-size: 18px;
+    width: 60vw;
+  }
+
+  .socials {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 650px) {
+  .benefits {
+    flex-direction: column;
+  }
+
+  .advantage {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .benefit-text {
+    text-align: center;
+  }
+}
