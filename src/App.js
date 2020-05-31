@@ -11,13 +11,13 @@ function App() {
   return (
     <div className="App">
       <header>
-      <a href="/" id="logo">
+      <NavLink to="/" id="logo">
       <img
       src="https://i.imgur.com/9xsWBPZ.png"
       width="65px"
       height="65px"
       />
-      </a>
+      </NavLink>
         <nav>
           <li>
             <NavLink activeStyle={{ color: "#185bd8" }} to="/leistungen">

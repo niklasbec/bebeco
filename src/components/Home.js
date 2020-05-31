@@ -14,7 +14,7 @@ function Home() {
       </a>
       </div>
       <div className="benefits">
-        <Adv url="https://image.flaticon.com/icons/svg/1535/1535012.svg" h3="Ausgerichtet an Kleinunternehmer" p="Im Gegensatz zu anderen Unternehmen bieten wir faire Konditionen unabhängig der Größe ihres Unternehmens, damit Sie mit uns wachsen können!"/>
+        <Adv url="https://image.flaticon.com/icons/svg/1535/1535012.svg" h3="Für Kleinunternehmer" p="Im Gegensatz zu anderen Unternehmen bieten wir faire Konditionen unabhängig der Größe ihres Unternehmens, damit Sie mit uns wachsen können!"/>
         <Adv url="https://image.flaticon.com/icons/svg/985/985698.svg" h3="Faire Preise" p="Unser Ziel ist es Preise zu bieten mit denen beide Seiten zufrieden seien können. Wenn Sie ein günstigeres Angebot von einem Konkurrenzunternehmen erhalten unterbieten wir Dieses!"/>
         <Adv url="https://image.flaticon.com/icons/svg/1898/1898137.svg" h3="Einfache Erreichbarkeit" p="Schluss mit dem endlosen E-Mail Krieg! Wir bieten Kommunikation nach ihrer Vorstellung. Ob WhatsApp, E-Mail oder per Anruf, bei uns erhalten Sie alle nötigen Informationen auf dem Weg ihrer Wahl"/>
       </div>
